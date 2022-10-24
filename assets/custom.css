@@ -1,0 +1,15 @@
+.header-wrapper {
+    background-color: #51afbb;
+}
+.header-wrapper nav ul li a span, .header__icon{
+    color: #ffffff;
+}
+.announcement-bar {
+    background-color: #64a1b9;
+}
+.announcement-bar p {
+    color: #ffffff;
+}
+h1, h2.rich-text__heading, h3, h4, h5 {
+    color: #e38f8e;
+}
