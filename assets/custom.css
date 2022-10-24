@@ -1,0 +1,12 @@
+.header-wrapper {
+    background-color: #109580;
+}
+.header-wrapper nav ul li a span, .header__icon{
+    color: #ffffff;
+}
+.announcement-bar {
+    background-color: #0a6254;
+}
+.announcement-bar p {
+    color: #ffffff;
+}
