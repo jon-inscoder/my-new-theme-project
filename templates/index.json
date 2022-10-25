@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "Image banner",
+            "heading": "Food Crib Milktea and Snacks",
             "heading_size": "h0"
           }
         },
@@ -35,6 +35,7 @@
         "button"
       ],
       "settings": {
+        "image": "shopify:\/\/shop_images\/274584487_10228447057944104_8365416383433137876_n.jpg",
         "image_overlay_opacity": 40,
         "image_height": "large",
         "adapt_height_first_image": false,
