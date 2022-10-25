@@ -23,7 +23,7 @@
 h1, h2.rich-text__heading, h3, h4, h5 {
     color: #e38f8e;
 }
-.shogun-override-column-images img.shogun-image.shogun-image-cover {
+.shogun-override-column-images img.shogun-image {
     height: 400px;
     object-fit: cover;
 }
