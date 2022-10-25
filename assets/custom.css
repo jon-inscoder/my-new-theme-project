@@ -28,7 +28,7 @@ h1, h2.rich-text__heading, h3, h4, h5 {
     object-fit: cover !important;
 }
 .shogun-custom-slider img {
-    height: 400px;
+    height: 80vh;
     object-fit: cover;
     object-position: center;
 }
