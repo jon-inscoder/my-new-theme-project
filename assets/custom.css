@@ -1,15 +1,25 @@
-.header-wrapper {
+.color-legend {
     background-color: #51afbb;
-}
-.header-wrapper nav ul li a span, .header__icon{
-    color: #ffffff;
-}
-.announcement-bar {
     background-color: #64a1b9;
+    color: #dfc2a2;
+    color: #bccda4;
+    color: #9ccbb1;
+    color: #e38f8e;
+}
+
+
+.header-wrapper {
+    background-color: var(--gradient-base-accent-1);
+}
+/* .header-wrapper nav ul li a span, .header__icon{
+    color: #ffffff;
+} */
+.announcement-bar {
+    background-color: var(--gradient-base-accent-2);
 }
 .announcement-bar p {
     color: #ffffff;
 }
-h1, h2.rich-text__heading, h3, h4, h5 {
+.rich-text__heading {
     color: #e38f8e;
-}
+} 
