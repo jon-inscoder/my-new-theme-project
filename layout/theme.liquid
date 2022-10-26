@@ -390,7 +390,7 @@
       var customerId = "6503639712055";
       
        fetch("https://" + shopifySubdomain + ".myshopify.com/admin/customers/" + customerId + ".json") 
-       .then((resp) => {
+       .then((response) => {
          return response.json();
              // handle response 
        })
