@@ -384,7 +384,26 @@
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`
       }
     </script>
-
+    <script>
+      var apiKey = "e57ce6583614bd48c14562a0f1eec1a2";
+      var shopifySubdomain = "jon-theme-dev.myshopify.com";
+      var customerId = "6503639712055";
+      
+      var request = new Request("https://" + shopifySubdomain + ".myshopify.com/admin/customers/" + customerId + ".json", 
+         { method: 'GET', 
+           headers: new Headers({ 'X-Shopify-Access-Token': apiKey }) 
+         });
+        // Now use it! 
+    
+       fetch(request) 
+       .then((resp) => {
+         console.log(resp)
+             // handle response 
+       }) 
+       .catch(err => { 
+             // handle errors 
+        });
+    </script>
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
