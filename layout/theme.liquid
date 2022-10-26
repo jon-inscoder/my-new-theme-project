@@ -389,12 +389,7 @@
       var shopifySubdomain = "jon-theme-dev";
       var customerId = "6503639712055";
       
-      var request = new Request("https://" + shopifySubdomain + ".myshopify.com/admin/customers/" + customerId + ".json", 
-         { method: 'GET' 
-         });
-        // Now use it! 
-    
-       fetch(request) 
+       fetch("https://" + shopifySubdomain + ".myshopify.com/admin/customers/" + customerId + ".json") 
        .then((resp) => {
          return response.json();
              // handle response 
