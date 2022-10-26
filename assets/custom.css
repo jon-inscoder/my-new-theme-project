@@ -7,7 +7,6 @@
     color: #e38f8e;
 }
 
-
 .header-wrapper {
     background-color: var(--gradient-base-accent-1);
 }
@@ -22,4 +21,13 @@
 }
 .rich-text__heading {
     color: #e38f8e;
-} 
+}
+.shogun-override-column-images .shogun-image-container img {
+    height: 400px !important;
+    object-fit: cover !important;
+}
+.shogun-custom-slider img {
+    height: 80vh;
+    object-fit: cover;
+    object-position: center;
+}
