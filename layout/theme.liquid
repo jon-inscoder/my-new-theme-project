@@ -397,9 +397,12 @@
     
        fetch(request) 
        .then((resp) => {
-         console.log(resp)
+         return response.json();
              // handle response 
-       }) 
+       })
+        .then((data) => {
+          console.log(data);
+        })
        .catch(err => { 
              // handle errors 
         });
