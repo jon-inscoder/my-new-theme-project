@@ -7,7 +7,7 @@
         "padding_bottom": 28
       }
     },
-    "b6d197a0-ec2f-49e8-b07f-42f73ffbf8bf": {
+    "2e84225f-7a64-430b-b7b1-95b3a683eab5": {
       "type": "custom-liquid",
       "settings": {
         "custom_liquid": "{% render 'registration' %}",
@@ -19,6 +19,6 @@
   },
   "order": [
     "main",
-    "b6d197a0-ec2f-49e8-b07f-42f73ffbf8bf"
+    "2e84225f-7a64-430b-b7b1-95b3a683eab5"
   ]
 }
