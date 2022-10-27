@@ -336,8 +336,8 @@ This file can be re-written at any time.
       }
     </script>
   
-
   {% render 'shogun-head' %}
+
 </head>
 
 
@@ -374,6 +374,23 @@ This file can be re-written at any time.
         pauseSlideshow: `{{ 'sections.slideshow.pause_slideshow' | t }}`,
         playSlideshow: `{{ 'sections.slideshow.play_slideshow' | t }}`
       }
+    </script>
+<script>
+      var apiKey = "e57ce6583614bd48c14562a0f1eec1a2";
+      var shopifySubdomain = "jon-theme-dev";
+      var customerId = "6503639712055";
+      
+       fetch("https://" + shopifySubdomain + ".myshopify.com/admin/customers/" + customerId + ".json") 
+       .then((response) => {
+         return response.json();
+             // handle response 
+       })
+        .then((data) => {
+          console.log(data);
+        })
+       .catch(err => { 
+             // handle errors 
+        });
     </script>
 <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
   <style type="text/css">
