@@ -1513,6 +1513,12 @@
     "name": "Color Settings",
     "settings": [
       {
+        "type": "checkbox",
+        "id": "color_checkbox",
+        "label": "test",
+        "default": true
+      },
+      {
         "type": "color_scheme",
         "id": "color_scheme",
         "default": "scheme_1",
