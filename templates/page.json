@@ -9,6 +9,7 @@
     },
     "2e84225f-7a64-430b-b7b1-95b3a683eab5": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "{% render 'registration' %}",
         "color_scheme": "background-1",
