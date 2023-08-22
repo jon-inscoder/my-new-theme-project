@@ -9,9 +9,8 @@
     },
     "2e84225f-7a64-430b-b7b1-95b3a683eab5": {
       "type": "custom-liquid",
-      "disabled": true,
       "settings": {
-        "custom_liquid": "{% render 'registration' %}",
+        "custom_liquid": "{% render 'registration' %}\nSelect your language:\n\n<select><script>\n\ndocument.write(\"<OPTION value=1>\"+decodeURIComponent(document.location.href.substring(document.location.href.indexOf(\"default=\")+8))+\"<\/OPTION>\");\n\ndocument.write(\"<OPTION value=2>English<\/OPTION>\");\n\n<\/script><\/select>",
         "color_scheme": "background-1",
         "padding_top": 40,
         "padding_bottom": 52
