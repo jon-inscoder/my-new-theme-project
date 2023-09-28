@@ -23,7 +23,7 @@
   assign money_price = price | money_with_currency
   assign currency_symbol = cart.currency.symbol
   if settings.currency_code_enabled
-    assign money_price = price | money_without_currency | prepend: currency_symbol
+    assign money_price = price | money_without_currency
   endif
 
   if target == product and product.price_varies
