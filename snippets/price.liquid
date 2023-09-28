@@ -21,8 +21,9 @@
   assign price = target.price | default: 1999
   assign available = target.available | default: false
   assign money_price = price | money_with_currency
+  assign currency_symbol = cart.currency.symbol
   if settings.currency_code_enabled
-    assign money_price = price | money_without_currency
+    assign money_price = price | money_without_currency | prepend: currency_symbol
   endif
 
   if target == product and product.price_varies
